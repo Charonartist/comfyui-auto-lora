@@ -1,0 +1,27 @@
+{
+  "lora_mappings": [
+    {
+      "trigger_word": "miku",
+      "lora_file": "hatsune_miku.safetensors",
+      "strength": 1.0,
+      "description": "初音ミク LoRA"
+    },
+    {
+      "trigger_word": "anime_style",
+      "lora_file": "anime_style_v1.safetensors", 
+      "strength": 0.8,
+      "description": "アニメスタイル LoRA"
+    },
+    {
+      "trigger_word": "realistic",
+      "lora_file": "realistic_photo.safetensors",
+      "strength": 0.9,
+      "description": "リアル写真風 LoRA"
+    }
+  ],
+  "settings": {
+    "case_sensitive": false,
+    "max_lora_count": 3,
+    "default_strength": 1.0
+  }
+}
